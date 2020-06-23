@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="954c6b8b-7f91-4261-8607-990d660a5495" ChangeDateTime="06/17/2020 15:07:50">
+    <Property Name="ElementName" Value="[dbo].[Endpoints].[DateAdded]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateCreated" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1d760691-009a-4a21-bff6-b6aa8ab4806d" ChangeDateTime="06/17/2020 17:33:09">
+    <Property Name="ElementName" Value="[EndPointProvider].[Endpoints].[URI]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[EndPointProvider].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Path" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f6f57485-a856-4a61-a958-365d5f4fbc94" ChangeDateTime="06/18/2020 08:14:17">
+    <Property Name="ElementName" Value="[EndPointProvider].[Endpoints].[Host]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[EndPointProvider].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HostId" />
+  </Operation>
+</Operations>
